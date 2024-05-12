@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Datebox1" type="id" />
+    <item name="view9" type="id" />
+    <item name="view11" type="id" />
+    <item name="textView30" type="id" />
+    <item name="textView20" type="id" />
+    <item name="view15" type="id" />
+    <item name="view14" type="id" />
+    <item name="textView21" type="id" />
+    <item name="textView23" type="id" />
+    <item name="textView24" type="id" />
+    <item name="textView25" type="id" />
+    <item name="textView26" type="id" />
+    <item name="button4" type="id" />
+    <item name="button5" type="id" />
+    <item name="button6" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="imageView14" type="id" />
+    <item name="TaskRecyclerView" type="id" />
+</resources>

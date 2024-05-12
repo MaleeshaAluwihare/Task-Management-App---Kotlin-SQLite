@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Horizontal line -->
+    <item android:top="8dp" android:bottom="8dp" android:left="0dp" android:right="0dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="@color/lightBlue"/>
+            <size android:width="4dp" android:height="4dp"/>
+        </shape>
+    </item>
+    <!-- Vertical line -->
+    <item android:top="0dp" android:bottom="0dp" android:left="8dp" android:right="8dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="@color/lightBlue"/>
+            <size android:width="4dp" android:height="4dp"/>
+        </shape>
+    </item>
+</layer-list>
