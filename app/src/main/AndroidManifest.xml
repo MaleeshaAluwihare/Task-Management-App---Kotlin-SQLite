@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrekGO"
+        tools:targetApi="31" >
+        <activity
+            android:name=".loading_page"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".second_onboard_page"
+            android:exported="false" />
+        <activity
+            android:name=".first_onboard_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".TaskPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings_page"
+            android:exported="false" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaskUpdateActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
