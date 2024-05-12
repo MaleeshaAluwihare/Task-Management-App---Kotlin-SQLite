@@ -3,7 +3,7 @@
 # Task Management App
 
 ## Introduction
-This Task Management App is a simpletool designed to help users manage their daily tasks efficiently. Built with Kotlin and SQLite, it offers a user-friendly interface to create, read, update, and delete tasks with ease.
+This Task Management App is a simple tool designed to help users manage their daily tasks efficiently. Built with Kotlin and SQLite, it offers a user-friendly interface to create, read, update, and delete tasks with ease.
 
 ## Features
 - **Create Tasks:** Add new tasks with detailed descriptions.
