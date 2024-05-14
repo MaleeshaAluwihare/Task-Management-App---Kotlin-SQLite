@@ -1,7 +1,9 @@
 package com.example.trekgo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.example.trekgo.databinding.ActivityAddTaskBinding
 
@@ -14,6 +16,24 @@ class AddTaskActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAddTaskBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val homePage: View = findViewById(R.id.imageView16)
+        val settingPage: View = findViewById(R.id.imageView8)
+        val homePageIcon: View = findViewById(R.id.imageView3)
+
+        homePage.setOnClickListener{
+            val intent = Intent(this,home::class.java);
+            startActivity(intent);
+        }
+        settingPage.setOnClickListener{
+            val intent = Intent(this,settings_page::class.java);
+            startActivity(intent);
+        }
+        homePageIcon.setOnClickListener{
+            val intent = Intent(this,home::class.java);
+            startActivity(intent);
+        }
+
 
         db = TasksDatabase(this)
 
