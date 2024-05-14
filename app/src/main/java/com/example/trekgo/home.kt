@@ -15,6 +15,7 @@ class home: AppCompatActivity() {
         val button: Button = findViewById(R.id.button3);
         val addTask: View = findViewById(R.id.AddTaskBtn)
         val profile: View = findViewById(R.id.imageView8)
+        val setting: View = findViewById(R.id.imageView)
 
 
         button.setOnClickListener {
@@ -28,6 +29,11 @@ class home: AppCompatActivity() {
         }
 
         profile.setOnClickListener{
+            val intent = Intent(this,settings_page::class.java);
+            startActivity(intent);
+        }
+
+        setting.setOnClickListener{
             val intent = Intent(this,settings_page::class.java);
             startActivity(intent);
         }
